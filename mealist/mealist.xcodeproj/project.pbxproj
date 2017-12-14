@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104EB28C3C7FDF4BE77700EE /* Pods_mealistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AD03F7D83A9E3DEEE63072 /* Pods_mealistTests.framework */; };
+		246F30D3DCE4FEC5F738CEDA /* Pods_mealist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF63EFFF11A45A486D2349B /* Pods_mealist.framework */; };
+		4C3892E6B995E6A57DC6B47E /* Pods_mealistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07351F9F5DB7F3740A69EC10 /* Pods_mealistUITests.framework */; };
+		E64CAFC81FE2B5C1004BADC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFC71FE2B5C1004BADC1 /* AppDelegate.swift */; };
+		E64CAFCA1FE2B5C1004BADC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFC91FE2B5C1004BADC1 /* ViewController.swift */; };
+		E64CAFCD1FE2B5C1004BADC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64CAFCB1FE2B5C1004BADC1 /* Main.storyboard */; };
+		E64CAFCF1FE2B5C1004BADC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64CAFCE1FE2B5C1004BADC1 /* Assets.xcassets */; };
+		E64CAFD21FE2B5C1004BADC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64CAFD01FE2B5C1004BADC1 /* LaunchScreen.storyboard */; };
+		E64CAFDD1FE2B5C1004BADC1 /* mealistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFDC1FE2B5C1004BADC1 /* mealistTests.swift */; };
+		E64CAFE81FE2B5C1004BADC1 /* mealistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFE71FE2B5C1004BADC1 /* mealistUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E64CAFD91FE2B5C1004BADC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E64CAFBC1FE2B5C1004BADC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64CAFC31FE2B5C1004BADC1;
+			remoteInfo = mealist;
+		};
+		E64CAFE41FE2B5C1004BADC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E64CAFBC1FE2B5C1004BADC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E64CAFC31FE2B5C1004BADC1;
+			remoteInfo = mealist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07351F9F5DB7F3740A69EC10 /* Pods_mealistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mealistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2648DCBD9F3486E4AA6EE9D3 /* Pods-mealistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealistUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mealistUITests/Pods-mealistUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BC45E09672E8A514B48C44E /* Pods-mealistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealistUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealistUITests/Pods-mealistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		561549D9316861611624D6F4 /* Pods-mealistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mealistTests/Pods-mealistTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CF63EFFF11A45A486D2349B /* Pods_mealist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mealist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AD03F7D83A9E3DEEE63072 /* Pods_mealistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mealistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D07BCBDDF0208F0FF01973 /* Pods-mealistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealistTests/Pods-mealistTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8ED6CFA53C4EF4C86875169 /* Pods-mealist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mealist/Pods-mealist.debug.xcconfig"; sourceTree = "<group>"; };
+		E64CAFC41FE2B5C1004BADC1 /* mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64CAFC71FE2B5C1004BADC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E64CAFC91FE2B5C1004BADC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E64CAFCC1FE2B5C1004BADC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E64CAFCE1FE2B5C1004BADC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E64CAFD11FE2B5C1004BADC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E64CAFD31FE2B5C1004BADC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64CAFD81FE2B5C1004BADC1 /* mealistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64CAFDC1FE2B5C1004BADC1 /* mealistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealistTests.swift; sourceTree = "<group>"; };
+		E64CAFDE1FE2B5C1004BADC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64CAFE31FE2B5C1004BADC1 /* mealistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64CAFE71FE2B5C1004BADC1 /* mealistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealistUITests.swift; sourceTree = "<group>"; };
+		E64CAFE91FE2B5C1004BADC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDB436ED917FE94F655F8033 /* Pods-mealist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealist.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealist/Pods-mealist.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E64CAFC11FE2B5C1004BADC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246F30D3DCE4FEC5F738CEDA /* Pods_mealist.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64CAFD51FE2B5C1004BADC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104EB28C3C7FDF4BE77700EE /* Pods_mealistTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64CAFE01FE2B5C1004BADC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3892E6B995E6A57DC6B47E /* Pods_mealistUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F18D722B810B2D8D649DD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF63EFFF11A45A486D2349B /* Pods_mealist.framework */,
+				A7AD03F7D83A9E3DEEE63072 /* Pods_mealistTests.framework */,
+				07351F9F5DB7F3740A69EC10 /* Pods_mealistUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DCB702073E42F0D9991FFE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8ED6CFA53C4EF4C86875169 /* Pods-mealist.debug.xcconfig */,
+				FDB436ED917FE94F655F8033 /* Pods-mealist.release.xcconfig */,
+				561549D9316861611624D6F4 /* Pods-mealistTests.debug.xcconfig */,
+				B5D07BCBDDF0208F0FF01973 /* Pods-mealistTests.release.xcconfig */,
+				2648DCBD9F3486E4AA6EE9D3 /* Pods-mealistUITests.debug.xcconfig */,
+				3BC45E09672E8A514B48C44E /* Pods-mealistUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E64CAFBB1FE2B5C1004BADC1 = {
+			isa = PBXGroup;
+			children = (
+				E64CAFC61FE2B5C1004BADC1 /* mealist */,
+				E64CAFDB1FE2B5C1004BADC1 /* mealistTests */,
+				E64CAFE61FE2B5C1004BADC1 /* mealistUITests */,
+				E64CAFC51FE2B5C1004BADC1 /* Products */,
+				7DCB702073E42F0D9991FFE2 /* Pods */,
+				6F18D722B810B2D8D649DD13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E64CAFC51FE2B5C1004BADC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E64CAFC41FE2B5C1004BADC1 /* mealist.app */,
+				E64CAFD81FE2B5C1004BADC1 /* mealistTests.xctest */,
+				E64CAFE31FE2B5C1004BADC1 /* mealistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E64CAFC61FE2B5C1004BADC1 /* mealist */ = {
+			isa = PBXGroup;
+			children = (
+				E64CAFC71FE2B5C1004BADC1 /* AppDelegate.swift */,
+				E64CAFC91FE2B5C1004BADC1 /* ViewController.swift */,
+				E64CAFCB1FE2B5C1004BADC1 /* Main.storyboard */,
+				E64CAFCE1FE2B5C1004BADC1 /* Assets.xcassets */,
+				E64CAFD01FE2B5C1004BADC1 /* LaunchScreen.storyboard */,
+				E64CAFD31FE2B5C1004BADC1 /* Info.plist */,
+			);
+			path = mealist;
+			sourceTree = "<group>";
+		};
+		E64CAFDB1FE2B5C1004BADC1 /* mealistTests */ = {
+			isa = PBXGroup;
+			children = (
+				E64CAFDC1FE2B5C1004BADC1 /* mealistTests.swift */,
+				E64CAFDE1FE2B5C1004BADC1 /* Info.plist */,
+			);
+			path = mealistTests;
+			sourceTree = "<group>";
+		};
+		E64CAFE61FE2B5C1004BADC1 /* mealistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E64CAFE71FE2B5C1004BADC1 /* mealistUITests.swift */,
+				E64CAFE91FE2B5C1004BADC1 /* Info.plist */,
+			);
+			path = mealistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E64CAFC31FE2B5C1004BADC1 /* mealist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64CAFEC1FE2B5C1004BADC1 /* Build configuration list for PBXNativeTarget "mealist" */;
+			buildPhases = (
+				CF2FBF728A49E7A1D32CCE3B /* [CP] Check Pods Manifest.lock */,
+				E64CAFC01FE2B5C1004BADC1 /* Sources */,
+				E64CAFC11FE2B5C1004BADC1 /* Frameworks */,
+				E64CAFC21FE2B5C1004BADC1 /* Resources */,
+				D7966D7D2FA211E6FC377635 /* [CP] Embed Pods Frameworks */,
+				1AC64982886C8F62BFA80D7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mealist;
+			productName = mealist;
+			productReference = E64CAFC41FE2B5C1004BADC1 /* mealist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E64CAFD71FE2B5C1004BADC1 /* mealistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64CAFEF1FE2B5C1004BADC1 /* Build configuration list for PBXNativeTarget "mealistTests" */;
+			buildPhases = (
+				22CB316A01371B90890EAD7F /* [CP] Check Pods Manifest.lock */,
+				E64CAFD41FE2B5C1004BADC1 /* Sources */,
+				E64CAFD51FE2B5C1004BADC1 /* Frameworks */,
+				E64CAFD61FE2B5C1004BADC1 /* Resources */,
+				0D2C10468B8834D01479D9D5 /* [CP] Embed Pods Frameworks */,
+				A31566FE2C75303B6B3FD4FD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E64CAFDA1FE2B5C1004BADC1 /* PBXTargetDependency */,
+			);
+			name = mealistTests;
+			productName = mealistTests;
+			productReference = E64CAFD81FE2B5C1004BADC1 /* mealistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E64CAFE21FE2B5C1004BADC1 /* mealistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64CAFF21FE2B5C1004BADC1 /* Build configuration list for PBXNativeTarget "mealistUITests" */;
+			buildPhases = (
+				D7A4A25BD0FE0E53B7D4BCB5 /* [CP] Check Pods Manifest.lock */,
+				E64CAFDF1FE2B5C1004BADC1 /* Sources */,
+				E64CAFE01FE2B5C1004BADC1 /* Frameworks */,
+				E64CAFE11FE2B5C1004BADC1 /* Resources */,
+				77F16572C93CB7E573ACA688 /* [CP] Embed Pods Frameworks */,
+				13F2A43A1E9A1894BAA4E621 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E64CAFE51FE2B5C1004BADC1 /* PBXTargetDependency */,
+			);
+			name = mealistUITests;
+			productName = mealistUITests;
+			productReference = E64CAFE31FE2B5C1004BADC1 /* mealistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E64CAFBC1FE2B5C1004BADC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KoYamaura;
+				TargetAttributes = {
+					E64CAFC31FE2B5C1004BADC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					E64CAFD71FE2B5C1004BADC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E64CAFC31FE2B5C1004BADC1;
+					};
+					E64CAFE21FE2B5C1004BADC1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E64CAFC31FE2B5C1004BADC1;
+					};
+				};
+			};
+			buildConfigurationList = E64CAFBF1FE2B5C1004BADC1 /* Build configuration list for PBXProject "mealist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E64CAFBB1FE2B5C1004BADC1;
+			productRefGroup = E64CAFC51FE2B5C1004BADC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E64CAFC31FE2B5C1004BADC1 /* mealist */,
+				E64CAFD71FE2B5C1004BADC1 /* mealistTests */,
+				E64CAFE21FE2B5C1004BADC1 /* mealistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E64CAFC21FE2B5C1004BADC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64CAFD21FE2B5C1004BADC1 /* LaunchScreen.storyboard in Resources */,
+				E64CAFCF1FE2B5C1004BADC1 /* Assets.xcassets in Resources */,
+				E64CAFCD1FE2B5C1004BADC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64CAFD61FE2B5C1004BADC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64CAFE11FE2B5C1004BADC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2C10468B8834D01479D9D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mealistTests/Pods-mealistTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13F2A43A1E9A1894BAA4E621 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mealistUITests/Pods-mealistUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AC64982886C8F62BFA80D7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mealist/Pods-mealist-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22CB316A01371B90890EAD7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77F16572C93CB7E573ACA688 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mealistUITests/Pods-mealistUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31566FE2C75303B6B3FD4FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mealistTests/Pods-mealistTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF2FBF728A49E7A1D32CCE3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7966D7D2FA211E6FC377635 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mealist/Pods-mealist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A4A25BD0FE0E53B7D4BCB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E64CAFC01FE2B5C1004BADC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64CAFCA1FE2B5C1004BADC1 /* ViewController.swift in Sources */,
+				E64CAFC81FE2B5C1004BADC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64CAFD41FE2B5C1004BADC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64CAFDD1FE2B5C1004BADC1 /* mealistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64CAFDF1FE2B5C1004BADC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64CAFE81FE2B5C1004BADC1 /* mealistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E64CAFDA1FE2B5C1004BADC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E64CAFC31FE2B5C1004BADC1 /* mealist */;
+			targetProxy = E64CAFD91FE2B5C1004BADC1 /* PBXContainerItemProxy */;
+		};
+		E64CAFE51FE2B5C1004BADC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E64CAFC31FE2B5C1004BADC1 /* mealist */;
+			targetProxy = E64CAFE41FE2B5C1004BADC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E64CAFCB1FE2B5C1004BADC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64CAFCC1FE2B5C1004BADC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E64CAFD01FE2B5C1004BADC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64CAFD11FE2B5C1004BADC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E64CAFEA1FE2B5C1004BADC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E64CAFEB1FE2B5C1004BADC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E64CAFED1FE2B5C1004BADC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8ED6CFA53C4EF4C86875169 /* Pods-mealist.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mealist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KoYamaura.mealist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E64CAFEE1FE2B5C1004BADC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB436ED917FE94F655F8033 /* Pods-mealist.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mealist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KoYamaura.mealist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E64CAFF01FE2B5C1004BADC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561549D9316861611624D6F4 /* Pods-mealistTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mealistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KoYamaura.mealistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mealist.app/mealist";
+			};
+			name = Debug;
+		};
+		E64CAFF11FE2B5C1004BADC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D07BCBDDF0208F0FF01973 /* Pods-mealistTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mealistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KoYamaura.mealistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mealist.app/mealist";
+			};
+			name = Release;
+		};
+		E64CAFF31FE2B5C1004BADC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2648DCBD9F3486E4AA6EE9D3 /* Pods-mealistUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = mealistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KoYamaura.mealistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mealist;
+			};
+			name = Debug;
+		};
+		E64CAFF41FE2B5C1004BADC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC45E09672E8A514B48C44E /* Pods-mealistUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = mealistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KoYamaura.mealistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = mealist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E64CAFBF1FE2B5C1004BADC1 /* Build configuration list for PBXProject "mealist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64CAFEA1FE2B5C1004BADC1 /* Debug */,
+				E64CAFEB1FE2B5C1004BADC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E64CAFEC1FE2B5C1004BADC1 /* Build configuration list for PBXNativeTarget "mealist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64CAFED1FE2B5C1004BADC1 /* Debug */,
+				E64CAFEE1FE2B5C1004BADC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E64CAFEF1FE2B5C1004BADC1 /* Build configuration list for PBXNativeTarget "mealistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64CAFF01FE2B5C1004BADC1 /* Debug */,
+				E64CAFF11FE2B5C1004BADC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E64CAFF21FE2B5C1004BADC1 /* Build configuration list for PBXNativeTarget "mealistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64CAFF31FE2B5C1004BADC1 /* Debug */,
+				E64CAFF41FE2B5C1004BADC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E64CAFBC1FE2B5C1004BADC1 /* Project object */;
+}
