@@ -17,6 +17,7 @@
 		E64CAFD21FE2B5C1004BADC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64CAFD01FE2B5C1004BADC1 /* LaunchScreen.storyboard */; };
 		E64CAFDD1FE2B5C1004BADC1 /* mealistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFDC1FE2B5C1004BADC1 /* mealistTests.swift */; };
 		E64CAFE81FE2B5C1004BADC1 /* mealistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFE71FE2B5C1004BADC1 /* mealistUITests.swift */; };
+		E64CAFF61FE2BDA9004BADC1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFF51FE2BDA9004BADC1 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		E64CAFE31FE2B5C1004BADC1 /* mealistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64CAFE71FE2B5C1004BADC1 /* mealistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealistUITests.swift; sourceTree = "<group>"; };
 		E64CAFE91FE2B5C1004BADC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64CAFF51FE2BDA9004BADC1 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FDB436ED917FE94F655F8033 /* Pods-mealist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealist.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealist/Pods-mealist.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 				E64CAFCE1FE2B5C1004BADC1 /* Assets.xcassets */,
 				E64CAFD01FE2B5C1004BADC1 /* LaunchScreen.storyboard */,
 				E64CAFD31FE2B5C1004BADC1 /* Info.plist */,
+				E64CAFF51FE2BDA9004BADC1 /* Model.swift */,
 			);
 			path = mealist;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64CAFF61FE2BDA9004BADC1 /* Model.swift in Sources */,
 				E64CAFCA1FE2B5C1004BADC1 /* ViewController.swift in Sources */,
 				E64CAFC81FE2B5C1004BADC1 /* AppDelegate.swift in Sources */,
 			);
@@ -702,6 +706,7 @@
 				E64CAFEE1FE2B5C1004BADC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E64CAFEF1FE2B5C1004BADC1 /* Build configuration list for PBXNativeTarget "mealistTests" */ = {
 			isa = XCConfigurationList;
@@ -710,6 +715,7 @@
 				E64CAFF11FE2B5C1004BADC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E64CAFF21FE2B5C1004BADC1 /* Build configuration list for PBXNativeTarget "mealistUITests" */ = {
 			isa = XCConfigurationList;
@@ -718,6 +724,7 @@
 				E64CAFF41FE2B5C1004BADC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
