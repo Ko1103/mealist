@@ -64,8 +64,14 @@ final class FoodViewModel {
         guard let object = dao.findFirst(key: id as AnyObject) else {
             return
         }
-        object.created = created
-        let _ = dao.update(d: object)
+        let new = Food()
+        new.id = object.id
+        new.name = name
+        new.count = count
+        new.url = url
+        new.note = note
+        new.created = created
+        let _ = dao.update(d: new)
     }
     
     func delete() {

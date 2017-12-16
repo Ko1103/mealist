@@ -38,13 +38,12 @@ class AddViewController: UIViewController {
     }
     */
     @IBAction func saveData(_ sender: Any) {
-        let newId = FoodViewModel.create().id
-        let new = Food()
-        new.id = newId
+        let new = FoodViewModel.create()
         new.name = "test data"
         new.count = 3
         new.url = "https://github.com/Ko1103/mealist/blob/feature/%231_main_view/mealist/mealist/FoodViewModel.swift"
         new.note = "これはメモだよーー"
         new.created = NSDate()
+        new.update()
     }
 }
