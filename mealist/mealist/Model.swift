@@ -16,7 +16,7 @@ class Food: Object {
     dynamic var count = 0
     dynamic var url = ""
     dynamic var note = ""
-    dynamic var deadLine = Date()
+    dynamic var created = NSDate()
     
     override static func primaryKey() -> String? {
         return "id"
