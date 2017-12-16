@@ -34,14 +34,11 @@ class AddViewController: UIViewController {
     */
     @IBAction func saveData(_ sender: Any) {
         let  new = FoodViewModel.create()
-        let object = Food()
-        object.id = new.id
-        object.name = "test data"
-        object.count = 3
-        object.url = "https://github.com/Ko1103/mealist/blob/feature/%231_main_view/mealist/mealist/FoodViewModel.swift"
-        object.note = "これはメモだよーー"
-        object.created = NSDate()
-        let data = FoodViewModel(object)
-        data.update()
+        new.name = "test data"
+        new.count = 3
+        new.url = "https://github.com/Ko1103/mealist/blob/feature/%231_main_view/mealist/mealist/FoodViewModel.swift"
+        new.note = "これはメモだよーー"
+        new.created = NSDate()
+        new.update()
     }
 }

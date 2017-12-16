@@ -62,8 +62,12 @@ class FoodViewModel {
     func update() {
         let dao = FoodViewModel.dao.self
         guard let object = dao.findFirst(key: id as AnyObject) else {
-            return
+            return 
         }
+        object.name = name
+        object.count = count
+        object.url = url
+        object.note = note
         object.created = created
         let _ = dao.update(d: object)
     }
