@@ -7,6 +7,7 @@ target 'mealist' do
 
   #pod 'Alamofire', '4.0.0'
   pod 'RealmSwift', '2.4.3'
+  pod 'RxSwift', '3.6.1'
 
   target 'mealistTests' do
     inherit! :search_paths
