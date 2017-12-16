@@ -32,17 +32,18 @@ class FoodTableViewCell: UITableViewCell {
         name.text = data.name
         count.text = "\(data.count)"
         note.text = data.note
-        if data.url == "" {
-            url.setTitle("Webリンクがありません", for: .disabled)
-        }else {
+        if data.url != "" {
             url.setTitle(data.url, for: .normal)
             URL = data.url
             hasURL = true
         }
     }
+    
     @IBAction func openURL(_ sender: Any) {
-        if let url = NSURL(string: URL!) {
-            UIApplication.shared.open(url as URL)
+        if URL != nil{
+            if let url = NSURL(string: URL!) {
+                UIApplication.shared.open(url as URL)
+            }
         }
     }
 }
