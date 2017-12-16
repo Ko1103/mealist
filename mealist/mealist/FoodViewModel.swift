@@ -26,6 +26,10 @@ class Food: Object {
 
 class FoodViewModel {
     var id = 0
+    var name = ""
+    var count = 0
+    var url = ""
+    var note = ""
     var created = NSDate()
     
     var description: String{
@@ -36,6 +40,10 @@ class FoodViewModel {
     
     init(_ object: Food){
         id = object.id
+        name = object.name
+        count = object.count
+        url = object.url
+        note = object.note
         created = object.created
     }
     
