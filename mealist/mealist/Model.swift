@@ -68,10 +68,16 @@ class BaseModel <T : RealmSwift.Object> {
         return realm.object(ofType: T.self, forPrimaryKey: key)
     }
     
+    /// 最後のレコードの取得
+    ///
+    /// - Returns: T
     func findLast() -> T? {
         return findAll().last
     }
     
+    /// レコードの追加
+    ///
+    /// - Parameter d: T
     func add(d: T) {
         do {
             try realm.write {
@@ -82,6 +88,12 @@ class BaseModel <T : RealmSwift.Object> {
         }
     }
     
+    /// レコードの更新
+    ///
+    /// - Parameters:
+    ///   - d: T
+    ///   - block: primaryKey
+    /// - Returns: 結果
     func update(d: T, block:(() -> Void)? = nil) -> Bool{
         do {
             try realm.write {
