@@ -10,19 +10,6 @@ import Foundation
 import RealmSwift
 
 
-class Food: Object {
-    dynamic var id = 0
-    dynamic var name = ""
-    dynamic var count = 0
-    dynamic var url = ""
-    dynamic var note = ""
-    dynamic var created = NSDate()
-    
-    override static func primaryKey() -> String? {
-        return "id"
-    }
-}
-
 
 class BaseModel <T : RealmSwift.Object> {
     let realm: Realm
