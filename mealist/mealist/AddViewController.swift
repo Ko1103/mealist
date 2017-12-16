@@ -11,10 +11,15 @@ import UIKit
 class AddViewController: UIViewController {
 
     let data = Food()
+    var objects = [FoodViewModel]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let from = FoodViewModel.load()
+        for i in from {
+            print(i.id)
+            print(i.name)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,12 +38,13 @@ class AddViewController: UIViewController {
     }
     */
     @IBAction func saveData(_ sender: Any) {
-        let  new = FoodViewModel.create()
+        let newId = FoodViewModel.create().id
+        let new = Food()
+        new.id = newId
         new.name = "test data"
         new.count = 3
         new.url = "https://github.com/Ko1103/mealist/blob/feature/%231_main_view/mealist/mealist/FoodViewModel.swift"
         new.note = "これはメモだよーー"
         new.created = NSDate()
-        new.update()
     }
 }

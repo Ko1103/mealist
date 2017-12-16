@@ -52,7 +52,9 @@ class BaseModel <T : RealmSwift.Object> {
     /// - Parameter key: オブジェクト
     /// - Returns: T
     func findFirst(key: AnyObject) -> T? {
-        return realm.object(ofType: T.self, forPrimaryKey: key)
+        let aaa = realm.object(ofType: T.self, forPrimaryKey: key)
+        print(aaa)
+        return aaa
     }
     
     /// 最後のレコードの取得
