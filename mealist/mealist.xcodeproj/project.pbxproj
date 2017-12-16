@@ -10,7 +10,7 @@
 		104EB28C3C7FDF4BE77700EE /* Pods_mealistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AD03F7D83A9E3DEEE63072 /* Pods_mealistTests.framework */; };
 		246F30D3DCE4FEC5F738CEDA /* Pods_mealist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF63EFFF11A45A486D2349B /* Pods_mealist.framework */; };
 		4C3892E6B995E6A57DC6B47E /* Pods_mealistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07351F9F5DB7F3740A69EC10 /* Pods_mealistUITests.framework */; };
-		E649CF7F1FE3E632005DC4BA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649CF7E1FE3E632005DC4BA /* ViewModel.swift */; };
+		E649CF7F1FE3E632005DC4BA /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649CF7E1FE3E632005DC4BA /* FoodViewModel.swift */; };
 		E649CF811FE3E63A005DC4BA /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E649CF801FE3E63A005DC4BA /* View.swift */; };
 		E64CAFC81FE2B5C1004BADC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFC71FE2B5C1004BADC1 /* AppDelegate.swift */; };
 		E64CAFCA1FE2B5C1004BADC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFC91FE2B5C1004BADC1 /* ViewController.swift */; };
@@ -19,7 +19,7 @@
 		E64CAFD21FE2B5C1004BADC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64CAFD01FE2B5C1004BADC1 /* LaunchScreen.storyboard */; };
 		E64CAFDD1FE2B5C1004BADC1 /* mealistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFDC1FE2B5C1004BADC1 /* mealistTests.swift */; };
 		E64CAFE81FE2B5C1004BADC1 /* mealistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFE71FE2B5C1004BADC1 /* mealistUITests.swift */; };
-		E64CAFF61FE2BDA9004BADC1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFF51FE2BDA9004BADC1 /* Model.swift */; };
+		E64CAFF61FE2BDA9004BADC1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64CAFF51FE2BDA9004BADC1 /* BaseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		A7AD03F7D83A9E3DEEE63072 /* Pods_mealistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mealistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D07BCBDDF0208F0FF01973 /* Pods-mealistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealistTests/Pods-mealistTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8ED6CFA53C4EF4C86875169 /* Pods-mealist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mealist/Pods-mealist.debug.xcconfig"; sourceTree = "<group>"; };
-		E649CF7E1FE3E632005DC4BA /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E649CF7E1FE3E632005DC4BA /* FoodViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
 		E649CF801FE3E63A005DC4BA /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		E64CAFC41FE2B5C1004BADC1 /* mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64CAFC71FE2B5C1004BADC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		E64CAFE31FE2B5C1004BADC1 /* mealistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mealistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64CAFE71FE2B5C1004BADC1 /* mealistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mealistUITests.swift; sourceTree = "<group>"; };
 		E64CAFE91FE2B5C1004BADC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E64CAFF51FE2BDA9004BADC1 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E64CAFF51FE2BDA9004BADC1 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		FDB436ED917FE94F655F8033 /* Pods-mealist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mealist.release.xcconfig"; path = "Pods/Target Support Files/Pods-mealist/Pods-mealist.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,9 +148,9 @@
 				E64CAFCB1FE2B5C1004BADC1 /* Main.storyboard */,
 				E64CAFCE1FE2B5C1004BADC1 /* Assets.xcassets */,
 				E64CAFD01FE2B5C1004BADC1 /* LaunchScreen.storyboard */,
-				E649CF7E1FE3E632005DC4BA /* ViewModel.swift */,
+				E649CF7E1FE3E632005DC4BA /* FoodViewModel.swift */,
 				E649CF801FE3E63A005DC4BA /* View.swift */,
-				E64CAFF51FE2BDA9004BADC1 /* Model.swift */,
+				E64CAFF51FE2BDA9004BADC1 /* BaseModel.swift */,
 				E64CAFD31FE2B5C1004BADC1 /* Info.plist */,
 			);
 			path = mealist;
@@ -455,10 +455,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E64CAFF61FE2BDA9004BADC1 /* Model.swift in Sources */,
+				E64CAFF61FE2BDA9004BADC1 /* BaseModel.swift in Sources */,
 				E64CAFCA1FE2B5C1004BADC1 /* ViewController.swift in Sources */,
 				E649CF811FE3E63A005DC4BA /* View.swift in Sources */,
-				E649CF7F1FE3E632005DC4BA /* ViewModel.swift in Sources */,
+				E649CF7F1FE3E632005DC4BA /* FoodViewModel.swift in Sources */,
 				E64CAFC81FE2B5C1004BADC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
