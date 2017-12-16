@@ -14,7 +14,8 @@ class FoodTableViewCell: UITableViewCell {
     @IBOutlet weak var count: UILabel!
     @IBOutlet weak var note: UILabel!
     @IBOutlet weak var url: UIButton!
-    
+    var URL: String?
+    var hasURL = false
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -26,5 +27,22 @@ class FoodTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    func updateCell(_ data: FoodViewModel){
+        name.text = data.name
+        count.text = "\(data.count)"
+        note.text = data.note
+        if data.url == "" {
+            url.setTitle("Webリンクがありません", for: .disabled)
+        }else {
+            url.setTitle(data.url, for: .normal)
+            URL = data.url
+            hasURL = true
+        }
+    }
+    @IBAction func openURL(_ sender: Any) {
+        if let url = NSURL(string: URL!) {
+            UIApplication.shared.open(url as URL)
+        }
+    }
 }
