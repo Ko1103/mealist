@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import RealmSwift
+
 
 class FoodViewModel {
     var id = 0
