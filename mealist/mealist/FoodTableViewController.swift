@@ -20,7 +20,8 @@ class FoodTableViewController: UITableViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.leftBarButtonItem = self.editButtonItem
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(FoodTableViewController.segueToAdd))
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,6 +48,11 @@ class FoodTableViewController: UITableViewController {
         return cell
     }
 
+    func segueToAdd(){
+        let next = storyboard!.instantiateViewController(withIdentifier: "add")
+        self.present(next, animated: true, completion: nil)
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
