@@ -10,16 +10,17 @@ import UIKit
 
 class AddViewController: UIViewController {
 
-    let data = Food()
-    var objects = [FoodViewModel]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let from = FoodViewModel.load()
-        for i in from {
-            print(i.id)
-            print(i.name)
-        }
+//        let from = FoodViewModel.load()
+//        for i in from {
+//            print(i.id)
+//            print(i.name)
+//            print(i.count)
+//            print(i.note)
+//            print(i.url)
+//        }
     }
 
     override func didReceiveMemoryWarning() {
