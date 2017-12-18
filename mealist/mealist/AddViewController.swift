@@ -9,18 +9,9 @@
 import UIKit
 
 class AddViewController: UIViewController {
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let from = FoodViewModel.load()
-//        for i in from {
-//            print(i.id)
-//            print(i.name)
-//            print(i.count)
-//            print(i.note)
-//            print(i.url)
-//        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,5 +37,9 @@ class AddViewController: UIViewController {
         new.note = "これはメモだよーー"
         new.created = NSDate()
         new.update()
+    }
+    
+    @IBAction func close(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
 }
